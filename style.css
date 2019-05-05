@@ -1,0 +1,59 @@
+header {
+    background-color: #f0bd35;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+h1 {
+    margin-top: 0px;
+    
+}
+
+.flexcontainer {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    align-items: flex-start;
+}
+
+.swcharacter {
+    width: 30%;
+    border: 1px lightgray solid;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    width: 100%;
+    margin: auto
+}
+
+.swcharacter img {
+    width: 100%;
+}
+
+.swcharacter figcaption {
+    padding-left: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: lightgray;
+    height: 50px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    .flexcontainer {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .swcharacter {
+        width: 95%;
+    }
+}
